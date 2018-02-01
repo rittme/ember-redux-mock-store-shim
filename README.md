@@ -1,4 +1,4 @@
-# ember-redux-store-mock-shim
+# ember-redux-mock-store-shim
 
 [![NPM][npm-img]][npm-url] ![Ember][ember-img]
 

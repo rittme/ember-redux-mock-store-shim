@@ -1,0 +1,58 @@
+{
+  "name": "ember-redux-mock-store-shim",
+  "version": "0.0.1",
+  "description": "Redux Mock Store for Ember apps",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "npm run lint && npm run test-addon",
+    "test-addon":
+      "EMBER_TRY_SCENARIO=${EMBER_TRY_SCENARIO:=default} && ember try:one $EMBER_TRY_SCENARIO --- COVERAGE=true ember test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitTitan/ember-redux-mock-store-shim.git"
+  },
+  "homepage": "https://github.com/BitTitan/ember-redux-mock-store-shim",
+  "engines": {
+    "node": "^4.5 || 6.* || >= 7.*"
+  },
+  "bugs": {
+    "url": "https://github.com/BitTitan/ember-redux-mock-store-shim/issues"
+  },
+  "author": "BitTitan, Inc (https://github.com/BitTitan)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.5.0",
+    "ember-cli": "2.15.0",
+    "ember-cli-eslint": "^4.0.0",
+    "ember-cli-dependency-checker": "^2.0.0",
+    "ember-cli-htmlbars": "^2.0.1",
+    "ember-cli-htmlbars-inline-precompile": "^1.0.0",
+    "ember-cli-inject-live-reload": "^1.6.1",
+    "ember-cli-qunit": "^4.0.0",
+    "ember-cli-test-loader": "^2.0.0",
+    "ember-cli-uglify": "^1.2.0",
+    "ember-disable-prototype-extensions": "^1.1.2",
+    "ember-export-application-global": "^2.0.0",
+    "ember-load-initializers": "^1.0.0",
+    "ember-resolver": "^4.0.0",
+    "ember-symbol-observable": "1.0.1",
+    "ember-source": "~2.15.0",
+    "loader.js": "^4.2.3",
+    "redux-mock-store": "1.5.0"
+  },
+  "keywords": ["ember-addon", "redux"],
+  "dependencies": {
+    "broccoli-merge-trees": "^1.1.4",
+    "broccoli-replace": "^0.12.0",
+    "ember-cli-babel": "^6.8.2",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0"
+  },
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  }
+}
