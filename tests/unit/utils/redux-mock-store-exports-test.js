@@ -2,7 +2,7 @@ import { test, module } from "qunit";
 
 import configureStore from "redux-mock-store";
 
-module("Unit | Redux Mock Store | Tests");
+module("Unit | Util | Redux Mock Store Exports");
 
 test("exports configureStore", function(assert) {
   assert.equal(typeof configureStore, "function");
