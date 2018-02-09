@@ -1,6 +1,6 @@
 {
   "name": "ember-redux-mock-store-shim",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Redux Mock Store for Ember apps",
   "directories": {
     "test": "tests"
